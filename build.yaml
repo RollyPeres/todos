@@ -1,5 +1,9 @@
 targets:
   $default:
+    sources: [
+      "packages/todos/lib/core/locator.dart",
+      "packages/todos/lib/models.dart"
+    ]
     builders:
       json_serializable:
         options:
